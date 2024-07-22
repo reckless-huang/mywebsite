@@ -10,3 +10,16 @@ export default defineUserConfig({
     description: 'k8s linux devops 运维开发 云原生 gopher golang ', // SEO
     base: '/mywebsite/',  // 部署站点的基础路径
 })
+
+module.exports = {
+    themeConfig: {
+        logo: '/assets/img/logo.png',
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Guide', link: '/guide/' },
+            { text: 'External', link: 'https://google.com' },
+            { text: 'External', link: 'https://google.com', target:'_self', rel:'' },
+            { text: 'Guide', link: '/guide/', target:'_blank' }
+        ]
+    },
+}
