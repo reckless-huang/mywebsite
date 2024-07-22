@@ -6,7 +6,7 @@ export default defineUserConfig({
     bundler: viteBundler(),
     theme: defaultTheme(),
     lang: 'zh-CN',
-    title: '你好， VuePress ！',
-    description: '这是我的第一个 VuePress 站点',
-    base: '/mywebsite/',
+    title: '记录每一次成长',  // 站点的标题
+    description: 'k8s linux devops 运维开发 云原生 gopher golang ', // SEO
+    base: '/mywebsite/',  // 部署站点的基础路径
 })
