@@ -29,6 +29,6 @@ module.exports = ({
     lang: 'zh-CN',
     title: '记录每一次成长',  // 站点的标题
     description: 'k8s linux devops 运维开发 云原生 gopher golang ', // SEO
-    base: '/mywebsite/',  // 部署站点的基础路径
+    // base: '/mywebsite/',  // 部署站点的基础路径
     themeConfig: {},
 })
